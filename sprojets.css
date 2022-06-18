@@ -1,0 +1,625 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,800&display=swap');
+
+html{
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+*{
+    cursor:crosshair;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-color: #f9f6ec;
+    
+}
+
+header{
+    display: flex;
+    margin-bottom: 80px;
+}
+
+header img{
+    width: 1200px;
+    height: 150px;
+}
+
+
+video{
+    width: 150px;
+    height: 150px;
+}
+
+.proj_cal{
+    align-items: center;
+}
+
+
+.container{
+    width: calc(100%/3);
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: 0.3s;
+    }
+
+
+.avenir{
+    width: calc((100%/3)*2);
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+
+    }
+
+
+#box1{
+    background: url(proj/as.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#box2{
+    background: url(proj/autop.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#box3{
+    background: url(proj/rapas.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#box4{
+    background: url(proj/rborho.jpg);
+    background-size: cover;
+    background-position: center;
+}
+   
+#box5{
+    background: url(proj/mmi.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#box6{
+    background: url(proj/shining.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#box7{
+    background: url(proj/crous.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#box8{
+    background: url(proj/pouk.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#box9{
+    background: url(proj/waf.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#box10{
+    background: url(proj/benew.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#box11{
+    background: url(img/bg_prenom.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+
+.ligne {
+    display: flex;
+    flex-direction: row;
+}
+
+.categories {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 570px;
+    margin-right: 570px;
+
+
+}
+
+.categories a {
+    color: #0000006f;
+    text-decoration: none;
+    font-family: 'Bodoni Moda', serif;    
+    font-style: italic;
+    letter-spacing: 0.2em;
+    transition: 0.4s;
+}
+
+.categories a:hover{
+    letter-spacing: 0.5em;
+    color: black;
+}
+
+.showroom{
+    margin-top: 40px;
+}
+
+.container span {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    font-family: 'Bodoni Moda', serif;
+    font-weight: 800;
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    color: #f9f6ec;
+    text-shadow: -2.25px 0px 12px rgba(0, 0, 0, 0.25);
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.container:hover span{
+    background-color: #0000007c;
+    opacity: 1;
+}
+
+.avenir span {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    font-family: 'Bodoni Moda', serif;
+    font-weight: 800;
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    color: #f9f6ec;
+    text-shadow: -2.25px 0px 12px rgba(0, 0, 0, 0.25);
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.avenir:hover span {
+    opacity: 1;
+}
+
+.infos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+.infos img{
+    width: 50px;
+    height: 50px;
+}
+
+.profil a{
+    color: #0000006f;
+    text-decoration: none;
+    font-family: 'Bodoni Moda', serif;
+    font-style: italic;
+    letter-spacing: 0.2em;
+    transition: 0.4s;
+}
+
+.profil a:hover{
+    letter-spacing: 0.5em;
+    color: black;
+}
+
+
+.menu{
+filter: blur(2px) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+transition: 0.3s;
+}
+
+.menu:hover {
+    filter: blur(0px)
+}
+
+.cv a{
+    color: #0000006f;
+    text-decoration: none;
+    font-family: 'Bodoni Moda', serif;
+    font-style: italic;
+    letter-spacing: 0.2em;
+    transition: 0.4s;
+}
+
+.cv a:hover{
+    letter-spacing: 0.5em;
+    color: black;
+}
+
+
+
+footer{
+    margin-top: 100px;
+    font-family: 'Bodoni Moda', serif;
+    font-style: italic;
+    letter-spacing: -0.05em;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+
+
+
+/*Pop Up*/
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+
+button{
+    background-color: rgb(7, 74, 96);
+    color: white;
+    border-radius: 5px;
+    padding: 20px 30px;
+    font-size: 2em;
+}
+
+/*1*/
+.popup-container1{
+background-color: rgba(0, 0, 0, 0.6);
+position: fixed;
+top: 0;
+left: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100vw;
+height: 100vh;
+opacity: 0;
+pointer-events: none;
+transition: opacity 0.7s ease;
+}
+
+.popup-container1.show{
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.popup1{
+    position: fixed;
+    background: url(proj/cards/as.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    width: 55vw;
+    height: 67vh;
+    text-align: right;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 99999999999;
+}
+
+/*2*/
+.popup-container2{
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.7s ease;
+    }
+    
+    .popup-container2.show{
+        opacity: 1;
+        pointer-events: auto;
+    }
+    
+    .popup2{
+        position: fixed;
+        background: url(proj/cards/autop.jpg);
+        background-size: cover;
+        background-position: center;
+        border-radius: 5px;
+        width: 55vw;
+        height: 67vh;
+        text-align: right;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        z-index: 99999999999;
+    }
+
+    /*3*/
+.popup-container3{
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.7s ease;
+    }
+    
+    .popup-container3.show{
+        opacity: 1;
+        pointer-events: auto;
+    }
+    
+    .popup3{
+        position: fixed;
+        background: url(proj/cards/rapas.jpg);
+        background-size: cover;
+        background-position: center;
+        border-radius: 5px;
+        width: 55vw;
+        height: 67vh;
+        text-align: right;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        z-index: 99999999999;
+    }
+    
+    /*4*/
+    .popup-container4{
+        background-color: rgba(0, 0, 0, 0.6);
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 100vh;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.7s ease;
+        }
+        
+        .popup-container4.show{
+            opacity: 1;
+            pointer-events: auto;
+        }
+        
+        .popup4{
+            position: fixed;
+            background: url(proj/cards/rborho.jpg);
+            background-size: cover;
+            background-position: center;
+            border-radius: 5px;
+            width: 55vw;
+            height: 67vh;
+            text-align: right;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            z-index: 99999999999;
+        }
+
+        
+        /*5*/
+    .popup-container5{
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.7s ease;
+    }
+    
+    .popup-container5.show{
+        opacity: 1;
+        pointer-events: auto;
+    }
+    
+    .popup5{
+        position: fixed;
+        background: url(proj/cards/logommi.jpg);
+        background-size: cover;
+        background-position: center;
+        border-radius: 5px;
+        width: 55vw;
+        height: 67vh;
+        text-align: right;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        z-index: 99999999999;
+    }
+    
+    /*6*/
+    .popup-container6{
+        background-color: rgba(0, 0, 0, 0.6);
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 100vh;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.7s ease;
+        }
+        
+        .popup-container6.show{
+            opacity: 1;
+            pointer-events: auto;
+        }
+        
+        .popup6{
+            position: fixed;
+            background: url(proj/cards/shining.jpg);
+            background-size: cover;
+            background-position: center;
+            border-radius: 5px;
+            width: 55vw;
+            height: 67vh;
+            text-align: right;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            z-index: 99999999999;
+        }
+
+        
+        /*7*/
+.popup-container7{
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.7s ease;
+    }
+    
+    .popup-container7.show{
+        opacity: 1;
+        pointer-events: auto;
+    }
+    
+    .popup7{
+        position: fixed;
+        background: url(proj/cards/crous.jpg);
+        background-size: cover;
+        background-position: center;
+        border-radius: 5px;
+        width: 55vw;
+        height: 67vh;
+        text-align: right;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        z-index: 99999999999;
+    }
+    
+    /*8*/
+    .popup-container8{
+        background-color: rgba(0, 0, 0, 0.6);
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 100vh;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.7s ease;
+        }
+        
+        .popup-container8.show{
+            opacity: 1;
+            pointer-events: auto;
+        }
+        
+        .popup8{
+            position: fixed;
+            background: url(proj/cards/pokemon.jpg);
+            background-size: cover;
+            background-position: center;
+            border-radius: 5px;
+            width: 55vw;
+            height: 67vh;
+            text-align: right;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            z-index: 99999999999;
+        }
+    
+    /*9*/
+    .popup-container9{
+        background-color: rgba(0, 0, 0, 0.6);
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 100vh;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.7s ease;
+        }
+        
+        .popup-container9.show{
+            opacity: 1;
+            pointer-events: auto;
+        }
+        
+        .popup9{
+            position: fixed;
+            background: url(proj/cards/waf.jpg);
+            background-size: cover;
+            background-position: center;
+            border-radius: 5px;
+            width: 55vw;
+            height: 67vh;
+            text-align: right;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            z-index: 99999999999;
+        }
+
+/*10*/
+.popup-container10{
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.7s ease;
+    }
+    
+    .popup-container10.show{
+        opacity: 1;
+        pointer-events: auto;
+    }
+    
+    .popup10{
+        position: fixed;
+        background: url(proj/cards/benew.jpg);
+        background-size: cover;
+        background-position: center;
+        border-radius: 5px;
+        width: 55vw;
+        height: 67vh;
+        text-align: right;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        z-index: 99999999999;
+    }

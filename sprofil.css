@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap');
+
+html{
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+
+
+}
+
+*{
+    cursor:crosshair;
+}
+
+body{
+    background-color: #151515;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+header{
+    background: url(img/profil_bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    margin-bottom: 200px;
+}
+
+.moi{
+    background: url(img/moi_det.png);
+    height: 100vh;
+    background-size: cover;
+
+}
+
+
+.categories {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 440px;
+    margin-right: 440px;
+}
+
+.categories a {
+    color: #ffffff6f;
+    text-decoration: none;
+    font-family: 'Bodoni Moda', serif; 
+    font-style: italic;
+    letter-spacing: 0.2em;
+    transition: 0.4s;
+}
+
+.categories a:hover{
+    letter-spacing: 0.5em;
+    color: #ffffff;
+}
+
+.titre{
+    margin-top: 80px;
+    margin-bottom: 30px;
+
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Bodoni Moda', serif;
+    font-size: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;  
+    transition: 0.4s;
+}
+
+
+.titre div {
+    height: 2px;
+    width: 20%;
+    background-color: #7f4b65;
+  }
+
+
+.boite{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.gauche{
+    width: 50%;
+    margin-left: 70px;
+    margin-right: 20px;
+}
+.droite{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-right: 250px;
+}
+
+.boite2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.gauche2{
+    width: 50%;
+    margin-left: 15%;
+
+}
+.droite2{
+    width: 50%;
+}
+
+.presentation{
+    padding-left: 10%;
+    font-size: 1.3rem;
+    background: -webkit-radial-gradient(#ff8cc6, #5ffff2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 1s;
+}
+
+
+
+.photo{
+    background: url(img/mael.JPG);
+    background-size: cover;
+    background-position: center;
+    width: 350px;
+    height: 350px;
+    border-radius: 250px;
+    border: 3px solid #00ac9d;
+    transition: 0.3s;
+}
+
+.photo:hover{
+    border: 3px solid #7f4b65;
+}
+
+.photo p{
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    transition: 0.3s;
+}
+
+.photo p:hover{
+    background: -webkit-radial-gradient( #ff8cc6,#5ffff2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: -0.1em;
+    font-size: 2.2rem;
+}
+
+.photo a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    letter-spacing: -0.05em;
+
+}
+
+.photo a:hover{
+    background: -webkit-radial-gradient( #5ffff2, #ff8cc6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 0;
+}
+
+.bg_prenom{
+    width: 100vw;
+    height: 50vh;
+    background: url(img/bg_prenom_noir.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin-top: 100px;
+  
+}
+
+.ligne {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container{
+    width: calc(100%/6);
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: 0.5s;
+    border: 3px solid #00ac9d;
+    border-radius: 25000px;
+    margin-left: 8%;
+    margin-right:8%;
+    margin-top:1%;
+    margin-bottom:1%;
+}
+
+.container:hover{
+    border: 3px solid #7f4b65;
+}
+
+#box1{
+    background: url(img/comp/musique.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#box2{
+    background: url(img/comp/cinema.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#box3{
+    background: url(img/comp/dessin.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#box4{
+    background: url(img/comp/sport.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#box5{
+    background: url(img/comp/crea.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#box6{
+    background: url(img/comp/montage.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#box7{
+    background: url(img/comp/graph.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#box8{
+    background: url(img/comp/prog.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#box9{
+    background: url(img/comp/ergo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#box10{
+    background: url(img/comp/gdp.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#box11{
+    background: url(img/comp/marketing.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.container span {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    font-family: 'Bodoni Moda', serif;
+    font-weight: 800;
+    font-size: 1.8rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #f9f6ec;
+    border-radius: 25000px;
+    text-shadow: -2.25px 0px 12px rgba(0, 0, 0, 0.25);
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.container:hover span{
+    background-color: #000000a0;
+    opacity: 1;
+}
+
+
+.infos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 200px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.infos img{
+    width: 50px;
+    height: 50px;
+}
+
+.projets a{
+    color: #ffffffbb;
+    text-decoration: none;
+    font-family: 'Bodoni Moda', serif;
+    font-style: italic;
+    letter-spacing: 0.2em;
+    transition: 0.4s;
+}
+
+.projets a:hover{
+    letter-spacing: 0.5em;
+    color: white;
+}
+
+
+.menu{
+filter: blur(2px) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+transition: 0.3s;
+}
+
+.menu:hover {
+    filter: blur(0px)
+}
+
+.cv a{
+    color: #ffffffbb;
+    text-decoration: none;
+    font-family: 'Bodoni Moda', serif;
+    font-style: italic;
+    letter-spacing: 0.2em;
+    transition: 0.4s;
+}
+
+.cv a:hover{
+    letter-spacing: 0.5em;
+    color: rgb(255, 255, 255);
+}
+
+footer{
+    margin-top: 100px;
+    font-family: 'Bodoni Moda', serif;
+    font-style: italic;
+    letter-spacing: -0.05em;
+    align-items: center;
+    text-align: center;
+}
+
+.bloc{
+    margin-top: 5%;
+}
+
+.bleu{
+    color: #00ac9d;
+    font-weight: 600;
+    font-size: 1.6rem;
+    letter-spacing: -0.05em;
+}
+
+.lieu{
+    font-weight: 600;
+}
+.gris{
+    color: #7f7f7f;
+    font-weight: 400;
+}
+
+li{
+    transition: 0.3s;
+    font-weight: 200;
+    color: #ff8cc6;
+
+}
+
+li:hover{
+    letter-spacing: 0.1em;
+}
+
+.mael{
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.mael:hover{
+    font-size: 2.5rem;
+    letter-spacing: -0.2rem;
+}
+
+.gras{
+    font-weight: 600;
+    transition: 0.5s;
+}
+.gras:hover{
+    letter-spacing: 0.1em;
+}

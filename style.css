@@ -1,0 +1,106 @@
+*{
+    cursor:crosshair;
+}
+
+body{
+    background: url(img/texture.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-blend-mode: hard-light;
+    background : url(img/grain.jpg);
+    background-attachment: fixed;
+    background-size: cover; 
+    overflow: hidden;
+    
+}
+
+
+.surcouche{
+    mix-blend-mode: hard-light;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100vw;
+    height:100vh;
+    pointer-events: none;
+    cursor:crosshair;
+    z-index: 1000;
+    opacity: 0.3;
+}
+
+.surcouche > video{
+    width: 100%;
+    height: auto;
+    
+
+}
+
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.infos {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    
+}
+
+a{
+    color: #FFFFFF;
+    font-family: 'SimSun';
+    font-style: italic;
+    letter-spacing: 0.2em;
+    font-size: 1.7em;
+    text-decoration: none;  
+}
+
+.infos > div {
+    margin-left: 90px;
+    margin-right: 60px;
+    
+}
+
+
+.cv {
+    filter: blur(2px) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    transition: 0.3s;
+}
+
+.cv:hover {
+    filter: blur(0px)
+
+}
+
+.projets{
+width: 50px;
+height: 50px;
+filter: blur(2px) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+transition: 0.3s;
+}
+
+.projets:hover {
+    filter: blur(0px)
+}
+
+.profil{
+width: 50px;
+height: 50px;
+filter: blur(2px) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+transition: 0.3s;
+}
+.profil:hover {
+    filter: blur(0px)
+}
+
+
+video{
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+}
+
